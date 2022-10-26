@@ -1,0 +1,15 @@
+/* Начало секции RESOURCES */
+.resources {
+  border: 2px solid #2f80ed;
+}
+
+.resources__logo-zone {
+  display: flex;
+  width: 1100px;
+  margin: 80px auto 217px;
+}
+
+.resources__link {
+  width: 270px;
+  height: 38px;
+}
