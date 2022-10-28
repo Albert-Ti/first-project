@@ -1,5 +1,5 @@
 /* Начало секции DESCRIPTION */
-.content__description {
+.cdescription {
   border: 2px solid #2f80ed;
 }
 
@@ -35,7 +35,7 @@
   margin-bottom: 30px;
 }
 
-.paragraph_margin_none {
+.two-columns__paragraph:last-of-type {
   margin-bottom: 0;
 }
 

@@ -3,11 +3,11 @@
 
 @import url(/Blocks/header/header.css);
 
-@import url(/Blocks/content/__description/content__description.css);
-@import url(/Blocks/content/__digits/content__digits.css);
-@import url(/Blocks/content/__kaufman/content__kaufman.css);
-@import url(/Blocks/content/__techniques/content__techniques.css);
-@import url(/Blocks/content/__resources/content__resources.css);
+@import url(/Blocks/content/__description/description.css);
+@import url(/Blocks/content/__digits/digits.css);
+@import url(/Blocks/content/__kaufman/kaufman.css);
+@import url(/Blocks/content/__techniques/techniques.css);
+@import url(/Blocks/content/__resources/resources.css);
 
 @import url(/Blocks/footer/footer.css);
 

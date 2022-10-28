@@ -1,4 +1,24 @@
 .footer {
   min-height: 350px;
   background-color: #1f1f1f;
+  min-height: 350px;
+}
+
+.footer__columns {
+  width: 90%;
+  margin: 60px auto;
+  color: #fff;
+}
+
+.footer__columns_content_copyright {
+
+}
+
+.logo_place_footer {
+  width: 228px;
+  height: 32px;
+}
+
+.footer__author {
+  margin: 18px 0;
 }

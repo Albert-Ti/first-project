@@ -10,19 +10,22 @@
 <body class="page">
   <!--Начало работы с блоком HEADER-->
   <header class="header page_space_bottom">
-    <div class="header__logo">
-      <a href="https://practicum.yandex.ru" class="header__logo_place_header target="_blank"><img src="/images/logo_place_header.svg" alt="logo"></a>
-    </div>
+      <a href="https://practicum.yandex.ru" class="logo_place_header" target="_blank">
+        <img src="/images/logo_place_header.svg" alt="logo"></a>
+
       <h1 class="header__title">Научиться учиться</h1>
+
       <p class="header__subtitle">Какие современные и эффективные <br>
           подходы к обучению вы cможете <br> использовать своей жизни?
           <a class="header__link" href="#">Узнать &rarr;</a></p>
-      <!-- <img class="header__main-illustration" src ="./images/header-image.png" alt="images">
-      <div class="header__square-pic"></div> -->
+
+      <img class="header__main-illustration" src ="./images/header-image.png" alt="images">
+      <div class="header__square-pic"></div>
+
   </header>
   <!--Начало работы с блоком MAIN-->
   <main class="content">
-    <section class="content__description page_space_bottom flex-columns_space_center">
+    <section class="description page_space_bottom flex-columns_space_center">
       <div class="two-columns">
         <!-- Первая колонка -->
         <div class="two-columns__brif">
@@ -39,7 +42,7 @@
           <div class="two-columns__paragraph">
             <span class="span-accent">Вывод:</span>учиться тоже нужно уметь, но почему-то этому мало где учат. Что с
             этим делать?</div>
-          <div class="two-columns__paragraph paragraph_margin_none">
+          <div class="two-columns__paragraph">
             Конкретные техники и упражнения помогают изменить подход к обучению,
             сделать его эффективным и захватывающим. Эти техники применяются
             на примере обучения в Практикуме.</div>
@@ -47,18 +50,19 @@
       </div>
     </section>
 
-    <section class="content__techniques page_space_bottom flex-columns_space_center">
+    <section class="techniques page_space_bottom flex-columns_space_center">
       <div class="section-title">Техники обучения</div>
       <div class="section-subtitle">Пять практик от барбары Оакли</div>
       <div class="cards">
-        <div  class="cards__item"></div>
-        <div  class="cards__image"></div>
-        <div class="cards__title"></div>
-        <div class="cards__description"></div>
+        <div class="cards__item">
+          <div class="cards__image"></div>
+          <div class="cards__title">Два вида внимания</div>
+          <div class="cards__description"><p>Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p></div>
+        </div>
       </div>
     </section>
 
-    <section class="content__digits page_space_bottom flex-columns_space_center">
+    <section class="digits page_space_bottom flex-columns_space_center">
         <div class="section-title"><h3>Цифры и факты</h3></div>
         <div class="section-subtitle"><p>Про учебу и мозг</p></div>
         <div class="table">
@@ -99,7 +103,7 @@
         </div>
     </section>
 
-    <section class="content__kaufman page_space_bottom flex-columns_space_center">
+    <section class="kaufman page_space_bottom flex-columns_space_center">
       <div class="section-title"><h3>Принципы обучения</h3></div>
       <div class="section-subtitle"><p>От Джоша Кауфмана</p></div>
       <div class="table">
@@ -146,23 +150,33 @@
       </div>
     </section>
 
-    <section class="content__resources flex-columns_space_center">
+    <section class="resources flex-columns_space_center">
       <div class="section-title"><h3>Полезные ресурсы</h3></div>
       <div class="section-subtitle"><p>Больше материла о техниках и лайфхаках обучения</p></div>
-      <div class="resources__logo-zone">
-        <nav class="resources__link"><a href="#" class="resources__logo"></a><img src="/images/logo/resources-arzamas.svg" alt="ссылка"></nav>
-        <nav class="resources__link"><a href="#" class="resources__logo"></a><img src="/images/logo/resources-n1.svg" alt="ссылка"></nav>
-        <nav class="resources__link"><a href="#" class="resources__logo"></a><img src="/images/logo/resources-strelka.svg" alt="ссылка"></nav>
-        <nav class="resources__link"><a href="#" class="resources__logo"></a><img src="/images/logo/resources-polka.svg" alt="ссылка"></nav>
-      </div>
+      <nav class="resources__logo-zone">
+        <div class="resources__link"><a href="#"><img class="resources__logo" src="/images/logo/resources-arzamas.svg" alt="link"></a></div>
+        <div class="resources__link"><a href="#"><img class="resources__logo" src="/images/logo/resources-n1.svg" alt="link"></a></div>
+        <div class="resources__link"><a href="#"><img class="resources__logo" src="/images/logo/resources-strelka.svg" alt="link"></a></div>
+        <div class="resources__link"><a href="#"><img class="resources__logo" src="/images/logo/resources-polka.svg" alt="link"></a></div>
+      </nav>
     </section>
   </main>
   <!--Начало работы с блоком FOOTER-->
   <footer class="footer">
     <div class="footer__columns">
-      <div class="footer__columns_content_copyright"></div>
-      <div class="footer__columns_content_info"></div>
-      <div class="footer__columns_content_social"></div>
+
+      <div class="footer__columns_content_copyright">
+        <div class="logo_place_footer"><a href="#"><img src="/images/logo_place_footer.svg" alt="logo"></a></div>
+      </div>
+        <p class="footer__author">&copy Альберт Тайгибов</p>
+
+      <div class="footer__columns_content_info">
+
+      </div>
+
+      <div class="footer__columns_content_social">
+
+      </div>
     </div>
   </footer>
 </body>

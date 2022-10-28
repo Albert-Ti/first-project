@@ -1,5 +1,5 @@
 /* Начало секции TECHNIQUES */
-.content__techniques {
+.techniques {
   width: 80%;
   border: 2px solid #2f80ed;
   margin-left: auto;
@@ -8,5 +8,17 @@
 
 .cards {
   width: 920px;
+}
+
+.cards__item {
+
+}
+
+.cards__image {
+
+}
+
+.cards__title {
+
 }
 
