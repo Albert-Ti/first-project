@@ -1,8 +1,4 @@
 /* Начало секции DESCRIPTION */
-.cdescription {
-  border: 2px solid #2f80ed;
-}
-
 .two-columns {
   width: 80%;
   display: flex;
@@ -29,6 +25,8 @@
 
 .two-columns__title {
   color: #2f80ed;
+  font-size: 100%;
+  font-weight: normal;
 }
 
 .two-columns__paragraph {

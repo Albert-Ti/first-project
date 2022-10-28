@@ -1,8 +1,4 @@
 /* Начало секции DIGITS */
-.digits {
-  border: 2px solid #2f80ed;
-}
-
 .table {
   width: 1100px;
   display: flex;
