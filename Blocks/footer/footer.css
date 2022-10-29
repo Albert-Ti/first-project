@@ -1,7 +1,8 @@
 
 .footer {
-  min-height: 350px;
+  min-height: 250px;
   background-color: #1f1f1f;
+  padding: 60px 0 40px;
 }
 
 .footer__columns {
@@ -10,20 +11,19 @@
   color: #fff;
   display: flex;
   justify-content: space-between;
-  border: 1px solid #fff;
 }
 
 .footer__columns-heading {
   line-height: 18px;
   font-size: 18px;
   font-weight: 600;
+  padding-bottom: 20px;
 }
 
 .footer__columns-links {
   line-height: 18px;
   font-size: 18px;
   font-weight: normal;
-  margin: 20px 0 16px;
 }
 
 .footer__columns_content_copyright {
@@ -57,12 +57,13 @@
 }
 
 .link_style {
-  margin-bottom: 10px;
+  padding-bottom: 10px;
   list-style-type: none;
 }
 
 .link_style > a {
   color: #fff;
   text-decoration: none;
+
 
 }
