@@ -16,5 +16,5 @@
     src: url(../Inter/Inter-SemiBold.woff2) format('woff2'),
          url(../Inter/Inter-SemiBold.woff) format('woff');
     font-family: 'inter-semibold';
-    font-weight: 600px;
+    font-weight: 600;
 }
