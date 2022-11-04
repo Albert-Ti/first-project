@@ -30,15 +30,11 @@
 }
 
 .two-columns__paragraph {
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 .two-columns__paragraph:last-of-type {
-  margin-bottom: 0;
-}
-
-.span-accent {
-  font-weight: bold;
+  padding-bottom: 0;
 }
 
 
