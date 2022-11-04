@@ -8,20 +8,24 @@
     <link rel="stylesheet" href="./pages/index.css">
 </head>
 <body class="page">
-  <!--Начало работы с блоком HEADER-->
+  <!-- Начало работы с блоком HEADER -->
   <header class="header page_space_bottom">
-      <a href="https://practicum.yandex.ru" class="logo_place_header" target="_blank">
-        <img src="./images/logo_place_header.svg" alt="logo"></a>
-      <h1 class="header__title">Научиться учиться</h1>
-      <p class="header__subtitle">Какие современные и эффективные <br>
-          подходы к обучению вы cможете <br> использовать своей жизни?
-          <a class="header__link link" href="#">Узнать &rarr;</a></p>
-      <img class="header__main-illustration" src ="./images/header-image.png" alt="images">
-      <div class="header__square-pic"></div>
+    <a href="https://practicum.yandex.ru" class="logo logo_place_header" target="_blank">
+      <img src="./images/logo_place_header.svg" alt="logo">
+    </a>
+    <h1 class="header__title">Научиться учиться</h1>
+    <p class="header__subtitle">
+        Какие современные и эффективные <br>
+        подходы к обучению вы cможете <br> использовать своей жизни?
+        <a class="header__link link_hover" href="#">Узнать &rarr;</a>
+    </p>
+    <img class="header__main-illustration" src ="./images/header-image.png" alt="images">
+    <div class="header__square-pic"></div>
   </header>
-  <!--Начало работы с блоком MAIN-->
+  <!-- Начало работы с блоком MAIN -->
   <main>
-    <section class="description page_space_bottom flex-columns_space_center">
+  <!-- Контент Description -->
+    <section class="content page_space_bottom">
       <div class="two-columns">
         <!-- Первая колонка -->
         <div class="two-columns__brif">
@@ -44,8 +48,8 @@
         </div>
       </div>
     </section>
-
-    <section class="techniques page_space_bottom flex-columns_space_center">
+  <!-- контент Techniques -->
+    <section class="content techniques page_space_bottom">
       <h2 class="section-title">Техники обучения</h2>
       <h3 class="section-subtitle">Пять практик от Барбары Оакли</h3>
 
@@ -77,8 +81,8 @@
         </div>
       </div>
     </section>
-
-    <section class="digits page_space_bottom flex-columns_space_center">
+  <!-- Контент Digits -->
+    <section class="content page_space_bottom">
         <h2 class="section-title">Цифры и факты</h2>
         <h3 class="section-subtitle">Про учебу и мозг</h3>
         <div class="table">
@@ -118,8 +122,8 @@
           </div>
         </div>
     </section>
-
-    <section class="kaufman page_space_bottom flex-columns_space_center">
+  <!-- Контент Kaufman -->
+    <section class="content kaufman page_space_bottom">
       <h2 class="section-title">Принципы обучения</h2>
       <h3 class="section-subtitle">От Джоша Кауфмана</h3>
       <div class="table">
@@ -165,45 +169,44 @@
         </div>
       </div>
     </section>
-
-    <section class="resources flex-columns_space_center">
+  <!-- Контент Resources -->
+    <section class="content">
       <h2 class="section-title">Полезные ресурсы</h2>
       <h3 class="section-subtitle">Больше материла о техниках и лайфхаках обучения</h3>
       <div class="resources__logo-zone">
-        <nav class="resources__link"><a href="#"><img class="link" src="./images/logo/resources-arzamas.svg" alt="link"></a></nav>
-        <nav class="resources__link"><a href="#"><img class="link" src="./images/logo/resources-n1.svg" alt="link"></a></nav>
-        <nav class="resources__link"><a href="#"><img class="link" src="./images/logo/resources-strelka.svg" alt="link"></a></nav>
-        <nav class="resources__link"><a href="#"><img class="link" src="./images/logo/resources-polka.svg" alt="link"></a></nav>
+        <nav class="resources__link"><a class="link_hover" href="#"><img src="./images/logo/resources-arzamas.svg" alt="link"></a></nav>
+        <nav class="resources__link"><a class="link_hover" href="#"><img src="./images/logo/resources-n1.svg" alt="link"></a></nav>
+        <nav class="resources__link"><a class="link_hover" href="#"><img src="./images/logo/resources-strelka.svg" alt="link"></a></nav>
+        <nav class="resources__link"><a class="link_hover" href="#"><img src="./images/logo/resources-polka.svg" alt="link"></a></nav>
       </div>
     </section>
   </main>
-  <!--Начало работы с блоком FOOTER-->
+  <!-- Начало работы с блоком FOOTER -->
   <footer class="footer">
     <div class="footer__columns">
-
+  <!-- Первая колонка -->
       <div class="footer__columns_content_copyright">
-        <div class="logo_place_footer"><a href="#"><img src="./images/logo_place_footer.svg" alt="logo"></a></div>
+        <a class="logo" href="#"><img src="./images/logo_place_footer.svg" alt="logo"></a>
         <p class="footer__author">&copy; Альберт Тайгибов</p>
       </div>
-
+  <!-- Вторая колонка -->
       <div class="footer__columns_content_info">
         <h3 class="footer__columns-heading">О Практикуме</h3>
-        <div class="footer__columns-links">
-          <nav class="link_style"><a class="link" href="#">Главная</a></nav>
-          <nav class="link_style"><a class="link" href="#">Концепция</a></nav>
-          <nav class="link_style"><a class="link" href="#">Наставники</a></nav>
-        </div>
+        <ul class="footer__columns-links">
+          <li class="footer__columns-links_style"><a class="link_hover" href="#">Главная</a></li>
+          <li class="footer__columns-links_style"><a class="link_hover" href="#">Концепция</a></li>
+          <li class="footer__columns-links_style"><a class="link_hover" href="#">Наставники</a></li>
+        </ul>
       </div>
-
+  <!-- Третья колонка -->
       <div class="footer__columns_content_social">
         <h3 class="footer__columns-heading">Соцсети</h3>
-        <div class="footer__columns-links">
-          <nav class="link_style"><a class="link" href="https://www.youtube.com" target="_blank"><img src="./images/youtube-icon.svg" alt="youtube-icon"> YouTube</a></nav>
-          <nav class="link_style"><a class="link" href="https://vk.com" target="_blank"><img src="./images/vk_color_white.svg" alt="vk-icon"> ВКонтакте</a></nav>
-          <nav class="link_style"><a class="link" href="https://www.tiktok.com" target="_blank"><img src="./images/tiktok-icon.svg" alt="tiktok-icon"> TikTok</a></nav>
-        </div>
+        <ul class="footer__columns-links">
+          <li class="footer__columns-links_style"><a class="link_hover" href="https://www.youtube.com" target="_blank"><img src="./images/youtube-icon.svg" alt="youtube-icon"> YouTube</a></li>
+          <li class="footer__columns-links_style"><a class="link_hover" href="https://vk.com" target="_blank"><img src="./images/vk_color_white.svg" alt="vk-icon"> ВКонтакте</a></li>
+          <li class="footer__columns-links_style"><a class="link_hover" href="https://www.tiktok.com" target="_blank"><img src="./images/tiktok-icon.svg" alt="tiktok-icon"> TikTok</a></li>
+        </ul>
       </div>
-
     </div>
   </footer>
 </body>

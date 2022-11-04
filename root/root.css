@@ -13,34 +13,17 @@
   margin-bottom: 100px;
 }
 
-.flex-columns_space_center {
+.content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.section-title {
-  width: 60%;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: 600;
-  text-align: center;
-}
-
-.section-subtitle {
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-  text-align: center;
-  margin-top: 20px;
-}
-
-.link {
+.link_hover {
   opacity: 0.7;
-  transition: all .1s ease-in-out;
+  transition: all .09s ease-in-out;
 }
 
-.link:hover {
+.link_hover:hover {
   opacity: 1;
 }

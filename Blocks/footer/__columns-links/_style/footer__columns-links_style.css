@@ -1,0 +1,9 @@
+.footer__columns-links_style {
+  padding-bottom: 10px;
+  list-style-type: none;
+}
+
+.footer__columns-links_style > a {
+  color: #fff;
+  text-decoration: none;
+}
