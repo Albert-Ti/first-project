@@ -1,7 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 @import url(../root/root.css);
-
+/* Блок - LOGO */
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place_header/logo_place_header.css);
 /* Блок - HEADER */
@@ -20,10 +20,26 @@
 @import url(../blocks/main/description/two-columns/__main-text/two-columns__main-text.css);
 @import url(../blocks/main/description/two-columns/__title/two-columns__title.css);
 @import url(../blocks/main/description/two-columns/__paragraph/two-columns__paragraph.css);
+/* Блок - MAIN секция techniques */
 @import url(../blocks/main/techniques/techniques.css);
+@import url(../blocks/main/techniques/cards/cards.css);
+@import url(../blocks/main/techniques/cards/__item/cards__item.css);
+@import url(../blocks/main/techniques/cards/__image/cards__image.css);
+@import url(../blocks/main/techniques/cards/__title/cards__title.css);
+@import url(../blocks/main/techniques/cards/__description/cards__description.css);
+/* Блок - MAIN секция digits */
 @import url(../blocks/main/digits/digits.css);
+@import url(../blocks/main/digits/table/table.css);
+@import url(../blocks/main/digits/table/__cell/table__cell.css);
+@import url(../blocks/main/digits/table/__heading/table__heading.css);
+@import url(../blocks/main/digits/table/__text/table__text.css);
+@import url(../blocks/main/digits/table/__text-footnote/table__text-footnote.css);
+/* Блок - MAIN секция kaufman */
 @import url(../blocks/main/kaufman/kaufman.css);
-@import url(../blocks/main/resources/resources.css);
+@import url(../blocks/main/kaufman/table/__cell_theme_dark/table__cell_theme_dark.css);
+/* Блок - MAIN секция resources */
+@import url(../blocks/main/resources/__logo-zone/resources__logo-zone.css);
+@import url(../blocks/main/resources/__link/resources__link.css);
 /* Блок - FOOTER */
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
