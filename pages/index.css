@@ -29,12 +29,12 @@
 @import url(../blocks/main/techniques/cards/__title/cards__title.css);
 @import url(../blocks/main/techniques/cards/__description/cards__description.css);
 /* Блок - MAIN секция digits */
-@import url(../blocks/main/digits/digits.css);
-@import url(../blocks/main/digits/table/table.css);
-@import url(../blocks/main/digits/table/__cell/table__cell.css);
-@import url(../blocks/main/digits/table/__heading/table__heading.css);
-@import url(../blocks/main/digits/table/__text/table__text.css);
-@import url(../blocks/main/digits/table/__text-footnote/table__text-footnote.css);
+@import url(../blocks/main/digit/digits.css);
+@import url(../blocks/main/digit/table/table.css);
+@import url(../blocks/main/digit/table/__cell/table__cell.css);
+@import url(../blocks/main/digit/table/__heading/table__heading.css);
+@import url(../blocks/main/digit/table/__text/table__text.css);
+@import url(../blocks/main/digit/table/__text-footnote/table__text-footnote.css);
 /* Блок - MAIN секция kaufman */
 @import url(../blocks/main/kaufman/kaufman.css);
 @import url(../blocks/main/kaufman/table/__cell_theme_dark/table__cell_theme_dark.css);
