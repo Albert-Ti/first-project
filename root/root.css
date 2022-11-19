@@ -13,11 +13,11 @@
   font-family: 'inter',Arial, sans-serif;
 }
 
-.link_hover {
+.link-hover {
   opacity: 0.7;
   transition: all .09s ease-in-out;
 }
 
-.link_hover:hover {
+.link-hover:hover {
   opacity: 1;
 }
