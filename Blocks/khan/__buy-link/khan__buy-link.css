@@ -2,8 +2,16 @@
   line-height: 42px;
   font-size: 30px;
   font-weight: normal;
-
   text-decoration: none;
   color: #2f80ed;
-  display: contents;
+
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.khan__buy-link:hover {
+  box-shadow: -5px 5px 10px #333;
+  transition: all 0.1s linear;
+  background-color: #2f80ed;
+  color: #fff;
 }

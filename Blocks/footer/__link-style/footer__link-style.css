@@ -2,3 +2,7 @@
   text-decoration: none;
   color: #fff;
 }
+
+.footer__link-style:active {
+  opacity: 0.5;
+}
