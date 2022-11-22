@@ -27,7 +27,7 @@
     <section class="description">
       <article class="two-columns">
         <!-- Первая колонка -->
-        <h2 class="two-columns__brif">Главные проблемы в обучении</h2>
+        <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
         <!-- Вторая колонка -->
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
@@ -84,7 +84,7 @@
     <!-- Контент oakley -->
     <section class="oakley">
       <div class="two-columns">
-        <h5 class="two-columns__brif">История Барбары Оакли</h5>
+        <h2 class="two-columns__brief">История Барбары Оакли</h2>
         <div class="two-columns__main-text">
           <p class="two-columns__paragraph">
             С детства Барбаре не давалась математика. Она считала себя законченным
@@ -165,7 +165,7 @@
     </section>
     <!-- Контент kaufman -->
     <section class="kaufman">
-      <img class="kaufman__triangle rotation" src="./images/kaufman-triangle.svg" alt="Анимация треугольника">
+      <div class="kaufman__triangle rotation"></div>
       <h2 class="section-title">Принципы обучения</h2>
       <h3 class="section-subtitle">От Джоша Кауфмана</h3>
       <ol class="table">
@@ -216,10 +216,14 @@
         <h2 class="section-title">Полезные ресурсы</h2>
         <h3 class="section-subtitle">Больше материла о техниках и лайфхаках обучения</h3>
         <ul class="resources__logo-zone">
-          <li class="resources__link"><a href="#"><img src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a></nav>
-          <li class="resources__link"><a href="#"><img src="./images/logo/resources-n1.svg" alt="Логотип n1"></a></nav>
-          <li class="resources__link"><a href="#"><img src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a></nav>
-          <li class="resources__link"><a href="#"><img src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a></nav>
+          <li class="resources__logo"><a class="resources__link" href="#"><img class="resources__image" src="./images/logo/resources-arzamas.svg" alt="Логотип Арзамас"></a>
+          </li>
+          <li class="resources__logo"><a class="resources__link" href="#"><img class="resources__image" src="./images/logo/resources-n1.svg" alt="Логотип n1"></a>
+          </li>
+          <li class="resources__logo"><a class="resources__link" href="#"><img class="resources__image" src="./images/logo/resources-strelka.svg" alt="Логотип Стрелка"></a>
+          </li>
+          <li class="resources__logo"><a class="resources__link" href="#"><img class="resources__image" src="./images/logo/resources-polka.svg" alt="Логотип Полка"></a>
+          </li>
         </ul>
     </section>
   </main>
@@ -227,37 +231,43 @@
   <footer class="footer">
     <div class="footer__columns">
       <!-- Первая колонка -->
-      <div class="footer__column footer__column_content_copyright">
+      <nav class="footer__column footer__column_content_copyright">
         <a class="logo" href="#"><img src="./images/logo_place_footer.svg" alt="Логотип подвала Яндекс Практикум"></a>
         <p class="footer__author">&copy; Альберт Тайгибов</p>
-      </div>
+      </nav>
       <!-- Вторая колонка -->
-      <div class="footer__column">
+      <nav class="footer__column">
         <h3 class="footer__column-heading">О Практикуме</h3>
         <ul class="footer__column-links">
-          <li class="footer__column-link"><a class="footer__link-style" href="#">Главная</a></li>
-          <li class="footer__column-link"><a class="footer__link-style" href="#">Концепция</a></li>
-          <li class="footer__column-link"><a class="footer__link-style" href="#">Наставники</a></li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Главная</a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Концепция</a>
+          </li>
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="#">Наставники</a>
+          </li>
         </ul>
-      </div>
+      </nav>
       <!-- Третья колонка -->
-      <div class="footer__column">
+      <nav class="footer__column">
         <h3 class="footer__column-heading">Соцсети</h3>
         <ul class="footer__column-links">
-          <li class="footer__column-link">
-            <a class="footer__link-style" href="https://www.youtube.com" target="_blank">
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="https://www.youtube.com" target="_blank">
             <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Иконка Ютуб"> YouTube</a>
           </li>
-          <li class="footer__column-link">
-            <a class="footer__link-style" href="https://vk.com" target="_blank">
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="https://vk.com" target="_blank">
             <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="Иконка ВКонтакте"> ВКонтакте</a>
           </li>
-          <li class="footer__column-link">
-            <a class="footer__link-style" href="https://www.tiktok.com" target="_blank">
+          <li class="footer__column-item">
+            <a class="footer__column-link" href="https://www.tiktok.com" target="_blank">
             <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="Иконка ТикТок"> TikTok</a>
           </li>
         </ul>
-      </div>
+      </nav>
     </div>
   </footer>
 </body>
